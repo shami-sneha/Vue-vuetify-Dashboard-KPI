@@ -1,0 +1,450 @@
+
+
+/* Define styles for the default root window element */
+:root {
+  --background-color-primary: #ebebeb;
+  --background-color-secondary: white;
+  --background-color-third: white;
+  --background-color-four: #f8f8f8;
+  --background-color-five: white;
+  --accent-color: #cacaca;
+  --text-primary-color: #222;
+  --text-secondry-color: #222;
+  --text-third-colortext-third-color: #606060;
+  --element-size: 4rem;
+}
+
+
+/* Define styles for the root window with dark - mode preference */
+:root.dark-theme {
+  --background-color-primary:  #1e1e1e;
+  --background-color-secondary: #2d2d30;
+  --background-color-third: #1e1e1e;
+  --background-color-four: #1e1e1e;
+  --background-color-five: #1e1e1e;
+  --accent-color: #3f3f3f;
+  --text-primary-color: #ddd;
+  --text-secondry-color: #ddd;
+  --text-third-color: #ddd;
+}
+
+
+
+.pagecontent {
+  background-color: var(--background-color-secondary) !important;
+  padding-left: 0px;
+}
+
+.editcardstyl{
+ background-color: var(--background-color-third) !important;
+ 
+}
+
+.v-btn__content{
+  color: var(--text-secondry-color) !important;
+}
+
+.tabstylblock{
+  width: 110px;
+  background-color: var(--background-color-secondary) !important;
+  color: var(--text-secondry-color) !important;
+}
+.textstyldate{
+  text-align: center;
+
+}
+.dateborderstyl{
+
+     background-color: var(--background-color-third) !important;
+  color: var(--text-third-color) !important;
+}
+.maintabstyl{
+  border: 1px solid #ddd;
+  width: 55px;
+}
+/*homepage*/
+
+.blockcolrstyl{
+  background-color: var(--background-color-primary) !important;
+}
+
+.calendercellcolor{
+  background-color: var(--background-color-five) !important;
+}
+
+.datapickedtsyl  {
+  height:50px;
+  font-size: 15px !important;
+
+}
+ .dp__theme_light{
+  --dp-background-color: var(--background-color-third) !important;
+    
+  --dp-text-color: var(--text-primary-color) !important;
+}
+.backgroundstyl{
+    background-color: var(--background-color-primary) !important;
+      color: var(--text-secondry-color) !important;
+
+}
+.btnstyl{
+  border-radius: 13px;
+  font-size: 10px;
+  padding-left: 14px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: var(--background-color-primary);
+  color:  var(--text-primary-color);
+}
+.taskbtnstyl{
+ color:  var(--text-primary-color) !important; 
+}
+
+.crosbtnstyl{
+ color:  var(--text-primary-color) !important; 
+}
+.footerstyl{
+  color:  var(--text-primary-color) !important; 
+
+}
+.cardbodystyl{
+  padding-bottom: 4px;
+  border-radius: 20px;
+  background-color: var(--background-color-secondary);
+
+}
+
+.cardbodystyl .v-input__control{
+ padding-bottom: 4px;
+ color: white;
+ background-color: var(--background-color-third);
+   color:  var(--text-primary-color) !important; 
+
+}
+.cardbodybtnstyl{
+ background-color: var(--background-color-secondary) !important;
+}
+.cardtabstyl{
+  background-color: var(--background-color-secondary) !important;
+}
+.imagestyl{
+ padding-left: 18px;
+ height: 30px;
+}
+
+.tabstyl{
+  font-size: 12px;
+  letter-spacing: normal;
+
+  height: 100px !important;
+  border-bottom: 1px solid black;
+  color:  var(--text-primary-color) !important; 
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #f8f9fa;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  margin-top: 
+}
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s
+}
+
+.closebtn {
+  position: absolute;
+  top: 35px;
+  right: 25px;
+  font-size: 36px !important;
+  margin-left: 50px;
+
+
+}
+
+.nav-tabs .nav-link {
+  color:  var(--text-primary-color);  
+  
+}
+
+.nav-tabs .nav-link.active {
+  border-bottom: 4px solid #00be83;
+  /* color:  var(--text-primary-color);*/  
+}
+/*About page*/
+
+.textstylcard{
+
+ color:  var(--text-primary-color);
+ line-height: 12px;
+ font-size: 14px;
+}
+
+.usertextstylcard{
+
+ color:  var(--text-primary-color);
+ font-size: 14px;
+}
+
+
+
+
+/*right side bar*/
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: black;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+
+#mySidebar.open{width:250px;}
+#main.open{margin-left:250px;}
+
+.scrolldatachart{
+  height:450px !important;
+  overflow-y: scroll;
+  overflow-x: hidden;;
+}
+
+
+
+
+/*Vue gant chart Style*/
+
+.gantt {
+ background: #fff;
+ display: flex;
+ user-select: none;
+}
+.gantt .gantt-rows {
+ display: flex;
+}
+.gantt .gantt-rows .gantt-row .gantt-row-header {
+ background: var(--background-color-four);
+ color: var(--text-third-color);
+ height: 72px;
+ line-height: 70px;
+ font-weight: bold;
+ box-sizing: border-box;
+ padding-left: 5px;
+ border-left: solid 1px #fff;
+ border-right: solid 2px #eee;
+ overflow: hidden;
+ text-overflow: ellipsis;
+ white-space: nowrap;
+}
+.gantt .gantt-rows .gantt-row-header-data {
+ overflow: hidden;
+}
+.gantt .gantt-rows .gantt-row-header-data .gantt-row-header-data-row {
+ box-sizing: border-box;
+ border-bottom: solid 1px #eee;
+ border-right: solid 1px #eee;
+ padding-left: 6px;
+ height: 38px;
+ line-height: 36px;
+ overflow: hidden;
+ text-overflow: ellipsis;
+ white-space: nowrap;
+ color: #555;
+ cursor: pointer;
+}
+.gantt .gantt-rows .gantt-row-header-data .gantt-row-header-data-row.hovered {
+ background: var(--background-color-four);
+}
+.gantt .gantt-data {
+ position: relative;
+ flex-grow: 1;
+ flex-shrink: 1;
+}
+.gantt .gantt-data .gantt-data-header {
+ height: 72px;
+ background: var(--background-color-four);
+ overflow: hidden;
+}     
+.gantt .gantt-data .gantt-data-header .gantt-data-header-calendar-wrap {
+ height: 18px;
+ line-height: 17px;
+ font-size: 14px;
+ overflow: hidden;
+}
+.gantt .gantt-data .gantt-data-header .gantt-data-header-calendar-wrap .gantt-data-header-calendar {
+ position: relative;
+}
+.gantt .gantt-data .gantt-data-header .gantt-data-header-calendar-wrap .gantt-data-header-calendar .gantt-data-header-calendar-date {
+ padding-left: 5px;
+ position: absolute;
+ top: 0;
+ height: 18px;
+ box-sizing: border-box;
+ border-left: solid 1px #ddd;
+ overflow: hidden;
+ text-overflow: ellipsis;
+ white-space: nowrap;
+ background: var(--background-color-four);
+ color: var(--text-third-color);
+ text-align: left;
+ text-transform: capitalize;
+}
+.gantt .gantt-data .gantt-data-header .gantt-data-header-slots-wrap {
+ height: 54px;
+ overflow: hidden;
+}
+.gantt .gantt-data .gantt-data-header .gantt-data-header-slots-wrap .gantt-data-header-slots {
+ position: relative;
+}
+.gantt .gantt-data .gantt-data-header .gantt-data-header-slots-wrap .gantt-data-header-slots .gantt-data-header-slot {
+ position: absolute;
+ top: 0;
+ box-sizing: border-box;
+ border-left: solid 1px #ddd;
+ height: 54px;
+ overflow: hidden;
+ text-overflow: ellipsis;
+ white-space: nowrap;
+ background: var(--background-color-four);
+ color: var(--text-third-color);
+ text-align: center;
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ justify-content: center;
+ align-items: center;
+}
+.gantt .gantt-data .gantt-data-header .gantt-data-header-slots-wrap .gantt-data-header-slots .gantt-data-header-slot .gantt-data-header-slot-label {
+ line-height: 130%;
+ text-transform: capitalize;
+}
+.gantt .gantt-data .gantt-data-wrap {
+ overflow: hidden;
+}
+.gantt .gantt-data .gantt-data-wrap .gantt-data-wrapped {
+ position: relative;
+}
+.gantt .gantt-data .gantt-data-wrap-with-scroll {
+ position: relative;
+}
+.gantt .gantt-data .gantt-data-wrap-with-scroll .gantt-data-y-scroll {
+ overflow-y: scroll;
+ overflow-x: hidden;
+ position: absolute;
+ top: 0;
+ bottom: 0;
+ right: -14px;
+ width: 14px;
+}
+.gantt .gantt-data .gantt-data-wrap-with-scroll .gantt-data-y-scroll div {
+ width: 14px;
+}
+.gantt .gantt-data .gantt-data-wrap-with-scroll .gantt-data-cell {
+ position: absolute;
+ box-sizing: border-box;
+ border-left: solid 1px #eee;
+ border-bottom: solid 1px #eee;
+}
+.gantt .gantt-data .gantt-data-wrap-with-scroll .gantt-data-item {
+ display: flex;
+ position: absolute;
+ box-sizing: border-box;
+ border-left: solid 1px #eee;
+ border-bottom: solid 1px #eee;
+ background: #ccc;
+ border-radius: 20px;
+ font-size: 14px;
+ line-height: 32px;
+ color: #fff;
+ overflow: hidden;
+ padding-left: 7px;
+ padding-right: 2px;
+}
+.gantt .gantt-data .gantt-data-wrap-with-scroll .gantt-data-item .gantt-data-item-label {
+ overflow: hidden;
+ text-overflow: ellipsis;
+ white-space: nowrap;
+ flex-grow: 1;
+ text-align:center;
+
+}
+.gantt .gantt-data .gantt-data-wrap-with-scroll .gantt-data-item .gantt-data-item-resizer {
+ width: 14px;
+ background: rgba(0, 0, 0, .1);
+ text-align: center;
+ border-radius: 0 20px 20px 0;
+ cursor: pointer;
+}
+.gantt .gantt-data .gantt-data-wrap-with-scroll .gantt-data-select {
+ position: absolute;
+ z-index: 1000;
+ background: rgba(0, 140, 255, 0.2);
+ border: dashed 2px #008fff;
+}
+.gantt .gantt-data .gantt-data-x-scroll {
+ overflow-x: scroll;
+ overflow-y: hidden;
+ position: absolute;
+ bottom: -14px;
+ left: 0;
+ right: 0;
+ height: 14px;
+}
+.gantt .gantt-data .gantt-data-x-scroll div {
+ height: 14px;
+}
+
+.userimagestyl{
+  width:20px;
+  height:20px
+}
